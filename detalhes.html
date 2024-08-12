@@ -10,6 +10,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Página exemplo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 	
 </head>
 <body>
@@ -29,6 +30,50 @@
 		<main>
 			<p><b>Conteúdo da página aqui</b></p>
 			<img src="imagem.jpg" alt="Imagem de exemplo" width="200" height="200">
+			<!--cria um formulario de login-->
+			<form>
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" required>
+				<br>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<br>
+				<input type="submit" value="Login">
+			</form>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<br>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+			<!--cria uma tabela-->
+			<table>
+				<tr>
+					<th>Nome</th>
+					<th>Idade</th>
+				</tr>
+				<tr>
+					<td>João</td>
+					<td>25</td>
+				</tr>
+				<tr>
+					<td>Maria</td>
+					<td>30</td>
+				</tr>
+			</table>
+			<!--cria uma lista-->
+			<ul>
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida nec risus vitae hendrerit. Vivamus interdum urna sollicitudin maximus sodales. Donec est purus, semper in sodales sed, egestas nec sapien. Integer id est metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus non dignissim diam. Quisque venenatis finibus est vehicula volutpat. Fusce at ultrices turpis.</p>
 
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida nec risus vitae hendrerit. Vivamus interdum urna sollicitudin maximus sodales. Donec est purus, semper in sodales sed, egestas nec sapien. Integer id est metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus non dignissim diam. Quisque venenatis finibus est vehicula volutpat. Fusce at ultrices turpis.</p>
